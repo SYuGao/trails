@@ -1,16 +1,15 @@
-name: py39
+name: py_s
 
 channels:
     - conda-forge
 
 dependencies:
-        - python=3.9
+        - python=3.10
         - gdal
         - numpy
         - pandas
         - shapely
         - geopandas
-        - pygeos
         - rasterio
         - matplotlib
         - cartopy
@@ -22,5 +21,6 @@ dependencies:
         - jupyter
         - jupyterlab
         - python-igraph
+        - networkx
    
           
